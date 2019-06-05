@@ -1,5 +1,5 @@
 {
-  "name": "@mitsuru793/package-bundle-typescirpt-webpack",
+  "name": "@mitsuru793/package-bundle-typescript-webpack",
   "version": "0.1.0",
   "description": "Package bundle for building TypeScript with webpack",
   "author": "mitsuru793 <mitsuru793@gmail.com>",
