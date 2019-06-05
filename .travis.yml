@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - stable
+  - lts/*
+install:
+  - travis_retry npm install
+script:
+  - echo "skipping tests"
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: yarn run semantic-release

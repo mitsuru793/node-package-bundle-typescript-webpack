@@ -1,0 +1,35 @@
+{
+  "name": "@mitsuru793/package-bundle-typescirpt-webpack",
+  "version": "0.1.0",
+  "description": "Package bundle for building TypeScript with webpack",
+  "author": "mitsuru793 <mitsuru793@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "package",
+    "bundle",
+    "TypeScript",
+    "lint"
+  ],
+  "scripts": {
+    "build": "webpack"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  },
+  "devDependencies": {
+    "@mitsuru793/package-bundle-semantic-release-npm": "^1.0.0",
+    "husky": "^2.3.0",
+    "package-json": "^6.3.0"
+  }
+}
